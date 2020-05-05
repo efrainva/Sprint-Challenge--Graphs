@@ -50,6 +50,7 @@ def next_path(starting_room, all_rooms=set()):
                 path.append(back_to) 
 
         add_to_path(starting_room) 
+        return path
 
 def create_path(starting_room, visited=set()):
     path = []
